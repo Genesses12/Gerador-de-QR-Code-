@@ -46,13 +46,13 @@ const QRCodeGenerator = () => {
       >
         Generate QR Code
       </button>
+      <h2 className="text-lg font-semibold mb-2">Código será gerado Abaixo</h2>
       {qrCodeUrl && (
         <div className="mt-4">
           <h2 className="text-lg font-semibold mb-2">Your QR Code:</h2>
           <div className="border p-4 mb-4 w-40 h-40 mx-auto mb-4 index-0">
           <img className="mx-auto mb-4" src={qrCodeUrl} alt="Generated QR Code" />
           </div>
-          <h2 className="text-lg font-semibold mb-2">Código será gerado acima</h2>
           <button
             onClick={shareQRCode}
             className="bg-green-500 text-white px-4 py-2 rounded"
