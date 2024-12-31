@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": " https://genesses12.github.io/Gerador-de-QR-Code-/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
