@@ -31,8 +31,8 @@ const QRCodeGenerator = () => {
   };
 
   return (
-    <div className="p-4 text-center items-center">
-      <h1 className="text-center font-bold mb-4">QR Code Generator</h1>
+    <div className="p-4 text-center items-center mt-1">
+      <h1 className="text-center font-bold mb-4 text-white ">QR Code Generator</h1>
       <input
         type="text"
         placeholder="Enter text or URL"
@@ -46,7 +46,7 @@ const QRCodeGenerator = () => {
       >
         Generate QR Code
       </button>
-      <h2 className="text-lg font-semibold mb-2">Código será gerado Abaixo</h2>
+      <h1 className="text-lg font-semibold mb-2 text-white">Código será gerado Abaixo</h1>
       {qrCodeUrl && (
         <div className="mt-4">
           <h2 className="text-lg font-semibold mb-2">Your QR Code:</h2>

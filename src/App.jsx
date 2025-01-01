@@ -1,5 +1,5 @@
 import "./App.css";
-import QRCodeGenerator from "./assets/components/QRCodeGenerator";
+import QRCodeGenerator from "./components/QRCodeGenerator";
 
 function App() {
   return (
